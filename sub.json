@@ -1,0 +1,36 @@
+{
+    "binance": [
+        {
+            "symbol": "BTC/USDT",
+            "serie_type": "OHLCV",
+            "duration": 60000,
+            "cache": 4
+        },
+        {
+            "symbol": "BTC/USDT:USDT",
+            "serie_type": "fundingRate",
+            "duration": 28800000,
+            "cache": 4
+        },
+        {
+            "symbol": "BTC/USDT:USDT",
+            "serie_type": "OHLCV",
+            "duration": 60000,
+            "cache": 4
+        },
+        {
+            "symbol": "BTC/USDT:USDT",
+            "serie_type": "tmpfundingRate",
+            "duration": 10000,
+            "cache": 4
+        }
+    ],
+    "hyperliquid": [
+        {
+            "symbol": "BTC/USDC:USDC",
+            "serie_type": "fundingRate",
+            "duration": 3600000,
+            "cache": 4
+        }
+    ]
+}
